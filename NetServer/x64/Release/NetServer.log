@@ -1,0 +1,46 @@
+﻿빌드 시작: 2018-03-12 오전 1:52:52
+     1>2 노드의 "c:\Users\eomjaewoong\documents\visual studio 2013\Projects\NetServer\NetServer\NetServer.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\NetServer.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\users\eomjaewoong\documents\visual studio 2013\projects\netserver\netserver\NPacket.h(279): warning C4244: '초기화 중' : '__int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\eomjaewoong\documents\visual studio 2013\projects\netserver\netserver\NPacket.h(281): warning C4018: '>' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\eomjaewoong\documents\visual studio 2013\projects\netserver\netserver\NPacket.h(291): warning C4244: '초기화 중' : '__int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\eomjaewoong\documents\visual studio 2013\projects\netserver\netserver\NPacket.h(293): warning C4018: '>' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\eomjaewoong\documents\visual studio 2013\projects\netserver\netserver\NPacket.h(422): warning C4805: '==' : 연산에 'bool' 형식과 'LONG' 형식을 함께 사용하는 것은 안전하지 않습니다.
+     1>c:\users\eomjaewoong\documents\visual studio 2013\projects\netserver\netserver\NPacket.h(433): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\eomjaewoong\documents\visual studio 2013\projects\netserver\netserver\NPacket.h(671): warning C4267: '인수' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\NetServer.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt APIHook.cpp CrashDump.cpp main.cpp NetServer.cpp NPacket.cpp Profiler.cpp
+         APIHook.cpp
+         CrashDump.cpp
+         main.cpp
+     1>main.cpp(6): error C2146: 구문 오류 : ';'이(가) 'EchoServer' 식별자 앞에 없습니다.
+     1>main.cpp(6): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>main.cpp(12): error C2228: '.Start' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 'int' 형식입니다.
+     1>main.cpp(19): error C2228: '.GetSessionCount' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 'int' 형식입니다.
+     1>main.cpp(20): error C2228: '._lAcceptTPS' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 'int' 형식입니다.
+     1>main.cpp(21): error C2228: '._lAcceptTotalTPS' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 'int' 형식입니다.
+     1>main.cpp(22): error C2228: '._lRecvPacketTPS' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 'int' 형식입니다.
+     1>main.cpp(23): error C2228: '._lSendPacketTPS' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 'int' 형식입니다.
+     1>main.cpp(26): error C2228: '._lPacketPoolTPS' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 'int' 형식입니다.
+     1>main.cpp(47): error C2228: '.Start' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 'int' 형식입니다.
+     1>main.cpp(55): error C2228: '.Stop' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 'int' 형식입니다.
+         NetServer.cpp
+     1>NetServer.cpp(528): warning C4800: 'LONG' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+         NPacket.cpp
+         Profiler.cpp
+     1>Profiler.cpp(289): warning C4267: '인수' : 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>"c:\Users\eomjaewoong\documents\visual studio 2013\Projects\NetServer\NetServer\NetServer.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:05.02
